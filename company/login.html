@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        var Com_Parameter = {
+            ContextPath: "/",
+            ResPath: "/resource/",
+            Style: "default",
+            JsFileList: new Array,
+            StylePath: "/resource/style/default/",
+            Lang: "zh-cn",
+            CurrentUserId: "14c7382812e898adcb9724a4946a429d",
+            Cache: 1593474479617,
+            FirstDayInWeek: parseInt('1') - 1
+        };
+    </script>
+
+    <link rel="shortcut icon" href="../css/icon.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/dataview.css">
+
+
+    <script type="text/javascript">
+        function checkLocation() {
+            if (top == window) {
+                return;
+            }
+            domain.call(window.top, "login");
+        }
+        try {
+            checkLocation();
+        } catch (e) {
+            window.console(e);
+        }
+    </script>
+    <title>登录系统</title>
+</head>
+
+<body>
+
+    <!-- 背景图片 Starts -->
+    <div class="login-background-img"><img src="../images/login_bg01.jpg" id="login-bgImg" /></div>
+    <script type="text/javascript">
+        // 您必须指定你的背景图片的大小
+        var FullscreenrOptions = {
+            width: 1920,
+            height: 1080,
+            bgID: '#login-bgImg'
+        };
+        // 此处将会激活全屏背景
+    </script>
+    <!-- 背景图片 Ends -->
+    <div class="login_header">
+        <div class="login_top_bar">
+        </div>
+        <div class="main_content">
+            <span class="logo"></span>
+        </div>
+    </div>
+    <div class="login_content main_content">
+        <!-- 登录框 开始 -->
+        <div class="login_iframe">
+            <div class="header">登录系统</div>
+
+
+            <form action="j_acegi_security_check" method="POST" onsubmit="return kmss_onsubmit();" autocomplete="off">
+                <table class="lui_login_form_table">
+
+                    <tr>
+                        <td colspan="2" class="lui_login_message_td">
+                            <div class="lui_login_message_div">
+
+
+
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="lui_login_input_title">用户名：</td>
+                        <td class="lui_login_input_td">
+                            <div class="lui_login_input_div">
+
+
+
+
+
+
+                                <input type='text' name='j_username' class="lui_login_input_username" onfocus="select();" value='' placeholder="用户名" autocomplete="off">
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td class="lui_login_input_title">密　码：</td>
+                        <td class="lui_login_input_td">
+                            <div class="lui_login_input_div">
+                                <input type='password' name='j_password' class="lui_login_input_password" placeholder="密码" autocomplete="off">
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="lui_login_button_td" colspan="2">
+                            <a href="javascript:document.getElementsByName('btn_submit')[0].click();">
+                                <div class="lui_login_button_div_l">
+                                    <div class="lui_login_button_div_r">
+                                        <div class="lui_login_button_div_c">登录</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <input type=hidden name="j_redirectto" value="">
+                <input type=submit style="border: 0px; width: 0px; height: 0px; background: none;" name="btn_submit">
+            </form>
+            <div class="form_bottom">
+                <a class="link" href="#" target="_blank"><span class="kk_logo"></span>KK客户端下载</a>
+
+
+            </div>
+            <!-- 下拉弹出窗 Starts -->
+            <div class="login-dropbox">
+                <div class="login-dropbox-toggle">
+                    <div class="iconbox">
+                        <span class="icon-QRcode"></span>
+                        <span class="icon-PC"></span>
+                    </div>
+                </div>
+                <div class="login-dropbox-menu">
+                    <div class="header">扫一扫</div>
+                    <ul class="login-dropbox-QRcode-list">
+                        <li>
+                            <div class="login-QRcode-box">
+                                <h4 class="title">KK5.0</h4>
+                                <div class="QRcode"><img src="../images/code_kk5.png" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="login-QRcode-box">
+                                <h4 class="title">蓝凌微云</h4>
+                                <div class="QRcode"><img src="../images/login_QRcode_weiyun.png" /></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="login-QRcode-box">
+                                <h4 class="title">微服务平台</h4>
+                                <div class="QRcode"><img src="../images/login_QRcode_weixin.png" /></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 下拉弹出窗 Ends -->
+        </div>
+        <!-- 登录框 结束 -->
+    </div>
+    <div class="login_footer">
+        <p>Copyright &copy; 2001-2016 蓝凌软件 版权所有</p>
+    </div>
+
+
+</body>
+
+</html>
+</body>
+
+</html>

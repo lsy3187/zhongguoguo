@@ -1,0 +1,107 @@
+/*---------------------------第二批页面开始-------------------*/
+
+
+/*业务领域*/
+
+.main_wrap_lv2 {
+    background: #f6f6f6;
+}
+
+.main_wrap {
+    position: relative;
+    min-height: 580px;
+}
+
+.yw_content {
+    padding-bottom: 100px;
+}
+
+h3.yw_title {
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    font-size: 20px;
+    color: #313131;
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+.yw_field {
+    width: 100%;
+}
+
+a.field_con {
+    display: block;
+    width: 305px;
+    /* height: 250px; */
+    float: left;
+    margin-right: 46px;
+}
+
+.field_con p {
+    width: 100%;
+    height: 57px;
+    line-height: 57px;
+    font-size: 18px;
+    text-align: center;
+    color: #2a2a2a;
+    font-weight: 600;
+    background: #e4e3e3;
+}
+
+.yw_more {
+    float: right;
+    clear: both;
+    font-size: 14px;
+    color: #8b8b8b;
+    font-weight: 400;
+}
+
+.yw_notice {
+    width: 100%;
+}
+
+.yw_notice_detail {
+    float: left;
+    display: block;
+    width: 457px;
+    height: 50px;
+    padding: 7.5px 20px 7.5px 10px;
+    border: 1px solid #dddddd;
+    background: #fff;
+    margin-right: 29px;
+    margin-bottom: 12px;
+}
+
+.yw_notice_left {
+    float: left;
+    width: 80%;
+    overflow: hidden;
+}
+
+.yw_notice_left p {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #1d1c1c;
+}
+
+.yw_notice_left span {
+    display: block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    color: #898989;
+}
+
+.yw_notice_right {
+    float: right;
+    width: 20%;
+    height: 50px;
+    overflow: hidden;
+    text-align: right;
+    line-height: 50px;
+    color: #a1a0a0;
+}
